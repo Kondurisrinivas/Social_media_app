@@ -1,15 +1,15 @@
 .create-account-container {
-    width: 387px;
-    height: 350px;
-    margin-top: 50px;
-    margin-left: 550px;
+    width: 400px;
+    min-height: 310px; 
+    margin: 100px auto;
     border-radius: 20px;
     background: #FFFFFF1A;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; 
+    box-sizing: border-box;
 }
 
 .flightimg {

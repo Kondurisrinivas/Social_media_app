@@ -2,7 +2,12 @@ import React from 'react'
 import CoverPage from './CoverPage';
 import flight from './assets/flightimg.png';
 import './CreateAccountOTP.css';
+import { useNavigate } from 'react-router-dom';
 function CreateAccountOTP() {
+    const navigate = useNavigate();
+     const Verifyhandler = () => {
+    navigate('/Account-Successfull-Page');
+  };
   return (
     <div>
         <CoverPage/>
@@ -20,7 +25,7 @@ function CreateAccountOTP() {
                     className="create-account-otp-input"
                     />
                 </div>
-                <button
+                <button onClick={Verifyhandler}
                     type="button"
                     className="create-account-button">
                     Continue

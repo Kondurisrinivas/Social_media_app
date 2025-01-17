@@ -37,7 +37,28 @@ function CreateAccount() {
                 placeholder="Enter Your mail"
                 className="create-account-input"
               />
-            
+          </div>
+
+          <div>
+            <label id='passwordtag'>
+              Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter Your password"
+                className="create-account-input"
+              />
+          </div>
+
+          <div>
+            <label id='confirmpwd'>
+              Confirm Password</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                placeholder="confirm your password"
+                className="create-account-input"
+              />
           </div>
 
           <button

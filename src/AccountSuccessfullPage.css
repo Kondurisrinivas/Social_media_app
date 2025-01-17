@@ -1,0 +1,27 @@
+#account-successfull {
+    width: 400px;
+    min-height: 310px;
+    margin: 100px auto; /* Center horizontally and add spacing from the top */
+    border-radius: 20px;
+    background: #FFFFFF1A;
+    padding: 20px; /* Increased padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center elements vertically */
+    box-sizing: border-box;
+}
+
+#verifiedimg {
+    margin-bottom: 20px; /* Space below the image */
+    width: 50px; /* Slightly larger for better visibility */
+    height: 50px;
+}
+
+#verifiedtext {
+    color: white;
+    text-align: center;
+    font-size: 18px; /* Consistent font size */
+    font-weight: bold; /* Make the text stand out */
+    margin: 0; /* Remove unnecessary margin */
+}
